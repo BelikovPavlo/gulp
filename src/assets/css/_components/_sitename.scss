@@ -1,0 +1,31 @@
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 600px;
+
+    .welcome {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 40px;
+        }
+
+        .text {
+            max-width: 700px;
+
+            h1 {
+                margin-left: 60px;
+                font-family: Poppins-Bold;
+            }
+
+            p {
+                margin-left: 60px;
+                margin-top: 3px;
+            }
+        }
+    }
+}
+

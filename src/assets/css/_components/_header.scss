@@ -1,0 +1,54 @@
+header {
+  background-color: #03a9f3;
+  width: 1920px;
+  height: 102px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    nav {
+      ul {
+        list-style: none; 
+        display: flex; 
+        margin: 40px; 
+
+        li {
+          margin: 0 2rem; 
+
+          a {
+            text-decoration: none; 
+            color: #fff;
+            font-weight: 600;
+
+            &:hover {
+              color: black;
+            }  
+          }
+        }
+      }
+      .phone{
+        margin-left: 30px; 
+        cursor: pointer;
+      }
+      button{
+        color: #fff;
+        margin-left: 25px;
+        width: 100px;
+        height: 35px;
+        background-color: rgba($color: #6e76e7, $alpha: 0.5);
+        border: none;
+        border-radius: 5%;
+
+        &:hover {
+          background-color: red;
+        }
+      }
+      .burger {
+        margin-left: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
