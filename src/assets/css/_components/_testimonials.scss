@@ -1,0 +1,80 @@
+.carousel-container {
+    width: 100%;
+    height: 615px;
+  
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      padding-top: 70px;
+      padding-left: 40px;
+      font-weight: bold;
+    }
+  
+    .carousel {
+      display: flex;
+      align-items: center;
+  
+      .items {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+  
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+  
+        .avatar {
+          margin-bottom: 50px;
+          img {
+            width: 80px;
+            height: 80px; 
+          }
+        }
+  
+        .testimonial {
+          text-align: center;
+  
+          .text {
+            margin-bottom: -230px;
+          }
+  
+          .name {
+            font-weight: bold;
+            margin-bottom: -250px;
+            color: #03a9f3;
+          }
+  
+          .date {
+            color: gray;
+          }
+        }
+      }
+  
+      .control {
+        position: absolute;
+        width: 70px; 
+        height: 150px; 
+        background: none;
+        border: none;
+        cursor: pointer;
+        transform: translateY(-50%);
+  
+        img {
+          width: 100%;
+          height: auto;
+        }
+  
+        &.left {
+          left: 15%;
+        }
+  
+        &.right {
+          right: 15%;
+        }
+      }
+    }
+  }
+  

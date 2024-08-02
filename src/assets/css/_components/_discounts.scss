@@ -1,7 +1,7 @@
 .program {
     position: relative;
     width: 100%;
-    height: 560px;
+    height: 780px;
 
     .bgc {
         width: 100%;
@@ -21,7 +21,7 @@
         margin-top: 70px;
 
         h1{
-            padding-top: 100px;
+            padding-top: 50px;
             color: #fff;
         }
 
@@ -29,5 +29,95 @@
             padding-top: 45px;
             color: #fff;
         }
+    }
+    .discounts {
+        position: absolute;
+        bottom: 0px;
+        right: 870px;
+        width: 560px;
+        height: 485px;
+        background-color: #fff;
+
+        .line {
+            position: absolute;
+            background-color: gray; 
+          }
+        
+          .horizontal {
+            width: 100%;
+            height: 1px;
+            top: 50%;
+          }
+        
+          .vertical {
+            height: 100%;
+            width: 1px; 
+            left: 50%;
+          }
+
+          .box {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 50%;
+            padding: 10px; // Отступы внутри секций
+        
+            .text-container {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              width: 100%;
+              height: 100%;
+              text-align: center;
+        
+              h1 {
+                margin: 0;
+                color: red;
+                font-weight: bold;
+              }
+
+              p {
+                margin: 0;
+              }
+        
+              h6 {
+                color: #03a9f3;
+                font-weight: bold;
+              }
+            }
+          }
+        
+          .top-left {
+            top: 0;
+            left: 0;
+          }
+        
+          .top-right {
+            top: 0;
+            right: 0;
+          }
+        
+          .bottom-left {
+            bottom: 0;
+            left: 0;
+          }
+        
+          .bottom-right {
+            bottom: 0;
+            right: 0;
+          }
+    }
+
+    .discounts2 {
+        position: absolute;
+        bottom: 0px;
+        right: 480px;
+        width: 390px;
+        height: 485px;
+        background-color: #03a9f3;
     }
 }
