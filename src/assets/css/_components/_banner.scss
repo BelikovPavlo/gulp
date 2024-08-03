@@ -51,5 +51,43 @@
     width: 1300px;
     height: 130px;
     background-color: #288ae6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+
+    label {
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: #fff;
+    }
+
+    select, input {
+      padding: 5px;
+      width: 200px;
+      font-size: 15px;
+    }
+
+    button{
+      color: #fff;
+      background-color: red;
+      width: 200px;
+      height: 40px;
+      font-size: 17px;
+      border-radius: 10px;
+      border: none;
+      margin-top: 27px;
+        &:hover{
+          background-color: rgba($color: #6e76e7, $alpha: 0.5);
+        }
+    }
   }
 }
