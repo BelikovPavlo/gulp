@@ -19,7 +19,7 @@ const uglify = require('gulp-uglify');
 const newer = require('gulp-newer');
 const imagemin = require('gulp-imagemin');
 const imageminJpegRecompress = require('imagemin-jpeg-recompress');
-const pngquant = require('imagemin-pngquant');
+// const pngquant = require('imagemin-pngquant');
 const webp = require('gulp-webp');
 const ttf2woff = require('gulp-ttf2woff');
 const ttf2woff2 = require('gulp-ttf2woff2');
@@ -198,10 +198,10 @@ function imageMin(){
                 min: 70, max: 75
             }),
 
-            pngquant({
-                speed: 5,
-                quality: [0.6, 0.8]
-            }),
+            // pngquant({
+            //     speed: 5,
+            //     quality: [0.6, 0.8]
+            // }),
 
             imagemin.svgo({
                 plugins: [

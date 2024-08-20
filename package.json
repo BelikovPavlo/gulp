@@ -28,7 +28,6 @@
     "gulp-uglify": "^3.0.2",
     "gulp-webp": "^4.0.1",
     "imagemin-jpeg-recompress": "^7.0.0",
-    "imagemin-pngquant": "^9.0.2",
     "sass": "^1.37.5",
     "webpack": "^5.50.0",
     "webpack-stream": "^6.1.2",
